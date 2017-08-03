@@ -33,6 +33,12 @@
       - Ctrl + w: Close active console: Close(0) --> **to None**
       - Ctrl + Shift + Left: Split: Put focues to...
       - Ctrl + L: print("\ecls\n") on GUI macro
+    - **too late do not install** -> set [**cmder-powerline-prompt**](https://github.com/AmrEldib/cmder-powerline-prompt)
+        ```
+        $ wget https://raw.githubusercontent.com/AmrEldib/cmder-powerline-prompt/master/powerline_prompt.lua
+        $ mv powerline_prompt.lua %CMDER_ROOT%/config
+        ```
+
     
  - Install [Docker](https://store.docker.com/editions/community/docker-ce-desktop-windows)
   - Set vimrc
