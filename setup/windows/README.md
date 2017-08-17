@@ -1,6 +1,7 @@
 # 윈도우 개발환경 세팅 in company
 
 ## Windows10
+
 - Set cmd as admin
   - Ctrl+Esc -> type "cmd" -> Right-click "open file location"
   - Right-Click on Command Prompt
@@ -13,6 +14,7 @@
     ```
     $ @powershell -NoProfile -ExecutionPolicy Bypass -Command "[System.Net.WebRequest]::DefaultWebProxy.Credentials = [System.Net.CredentialCache]::DefaultCredentials; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH="%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
     ```
+    
   - install peco and wget w/ Choclatey
   ```
   $ choco install peco
@@ -20,7 +22,8 @@
    # Set wget proxy
   $ set http_proxy=http://......:80
   $ set https_proxy=https://....:80
-  ```
+  ```
+  
   - Install ConEmu or **Cmder**
     - [Download ConEmu](https://www.fosshub.com/ConEmu.html) // alpha version
     - Create vi.bat file to C:\Windows\System32
@@ -62,6 +65,15 @@
     $ git config --global http.proxy http://..ge......:80
     ```
     - Install [git-flow](https://github.com/nvie/gitflow/wiki/Windows#git-for-windows-previously-msysgit)
+  - Tools
+  	- [Listary](http://www.listary.com): Fabulous search utility
+      - Press **Ctrl twice**: open app
+      - **Ctrl + G** on Open dialog: navigate to the current folder
+  	- [DocFetcher](http://docfetcher.sourceforge.net/en/index.html): Fast Document search
+  - [Install NodeJS](https://nodejs.org/ko/)
+  	- Download v6.11.2 LTS and install 
+  	- set proxy ```npm config set http-proxy http://....:80```
+
   
 - TODO
 ```
