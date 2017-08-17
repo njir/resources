@@ -4,8 +4,9 @@
 override func scrollViewDidScroll(scrollView: UIScrollView) {
         let offsetY = scrollView.contentOffset.y
         let contentHeight = scrollView.contentSize.height
-        if offsetY > contentHeight - scrollView.frame.size.height {
-            loadSomeDataAndIncreaseDataLengthFunction()
+        if offsetY > contentHeight - scrollView.frame.size.height {     // 마지막에서 작동함
+       // if offsetY + (cellHeight*2) > contentHeight - scrollView.frame.size.height { //같이 해야 미리로딩가능
+            loadSomeDataAndIncreaseDataLengthFunction()
             self.collectionView.reloadData()
         }
     }
