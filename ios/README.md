@@ -1,4 +1,9 @@
 # iOS programming
+- Tool
+  - [appiconmaker](http://appiconmaker.co/): generate and resize app icon
+  - [fus](https://github.com/tsabend/fus): find unused Swift classes
+  - [FengNiao](https://github.com/onevcat/FengNiao): cleaning unused resources in Xcode
+
 # infinite scroll on UICollectionView 
 ```swift
 override func scrollViewDidScroll(scrollView: UIScrollView) {
