@@ -1,8 +1,13 @@
 # iOS programming
-- Tool
-  - [appiconmaker](http://appiconmaker.co/): generate and resize app icon
+### Tool
+  - [makeappicon](https://makeappicon.com/): generate and resize app icon
   - [fus](https://github.com/tsabend/fus): find unused Swift classes
-  - [FengNiao](https://github.com/onevcat/FengNiao): cleaning unused resources in Xcode
+  - [FengNiao](https://github.com/onevcat/FengNiao): simple command-line util to deleting unused image resource files from you Xcode project.
+  - [SwiftLint](https://github.com/realm/SwiftLint): A tool to enforce Swift style and conventions, loosely based on GitHub's Swift Style Guide.
+
+### Firebase
+- [FireBase, GoogleAuth 설정](https://brunch.co.kr/@tilltue/14)
+- [Google 로그인 구현](https://firebase.google.com/docs/auth/ios/google-signin?hl=ko)
 
 # infinite scroll on UICollectionView 
 ```swift
@@ -16,9 +21,11 @@ override func scrollViewDidScroll(scrollView: UIScrollView) {
         }
     }
 ```
-- 코드 테스트는 안해봄
 
-## AUDIGA 개발에 참고할 것들
+
+---------------------
+
+### AUDIGA 개발에 참고할 것들
 - [MKMapKit기반 더블탭 확대/축소 방법](https://swifter.kr/2016/05/12/mkmapkit%EA%B8%B0%EB%B0%98-%EB%8D%94%EB%B8%94%ED%83%AD-%ED%99%95%EB%8C%80%EC%B6%95%EC%86%8C-%EB%B0%A9%EB%B2%95/)
 - [Mapkit 사용법](http://m.blog.naver.com/zll11/220744646888)
 - [MKPointAnnotations touch event in swift](http://stackoverflow.com/questions/26991473/mkpointannotations-touch-event-in-swift)
@@ -50,7 +57,7 @@ override func scrollViewDidScroll(scrollView: UIScrollView) {
 - [mapkit-polyline-polygon](http://www.appcoda.com/mapkit-polyline-polygon): MapKit Beginner’s Guide: Polylines, Polygons, and Callouts
 - [iOS9-day-by-day](https://github.com/shinobicontrols/iOS9-day-by-day): Example 많음, Apple pay, Map
 
-## Sites
+### Sites
 - [Some Swift libraries every iOS developer should know about](http://www.oodlestechnologies.com/blogs/Some-Swift-libraries-every-iOS-developer-should-know-about)
 - swift extension: http://realignist.me/code/2016/06/05/swift-snippets.html
 - http://swift.leantra.kr/
@@ -118,13 +125,3 @@ someFunction(1, secondParameterName: 2)
 
 - https://github.com/MengTo/Spring
 - Swift 3 - Alamofilre 4.0 multipart upload with progress: http://www.amaravadee.com/swift-3-alamofilre-4-0-multipart-upload-with-progress/
-
-## Firebase
-
-- [FireBase, GoogleAuth 설정](https://brunch.co.kr/@tilltue/14)
-- [Google 로그인 구현](https://firebase.google.com/docs/auth/ios/google-signin?hl=ko)
-
-
-## Tool
-- [FengNiao](https://github.com/onevcat/FengNiao): simple command-line util to deleting unused image resource files from you Xcode project.
-- [SwiftLint](https://github.com/realm/SwiftLint): A tool to enforce Swift style and conventions, loosely based on GitHub's Swift Style Guide.
