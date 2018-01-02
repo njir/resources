@@ -1,5 +1,5 @@
 # 개발환경 설정
-- (본격 macOS에 개발 환경 구축하기)[https://subicura.com/2017/11/22/mac-os-development-environment-setup.html]
+- [본격 macOS에 개발 환경 구축하기](https://subicura.com/2017/11/22/mac-os-development-environment-setup.html)
 - 기존 설정에서 아래 프로그램 or 플러그인 설치
   - zsh-syntax-highlighting
   - zsh-autosuggestions
@@ -11,6 +11,33 @@
   - tmuxinator
   - tig
   - thefuck
+- 3분의1 개발환경 설정
+	- install yarn
+	```
+  $ brew install yarn
+  ```
+  - tslint 설정
+  ```
+  # Install the global CLI and its peer dependency
+  $ yarn global add tslint typescript
+  # Navigate to to your sources folder
+  $ cd path/to/project
+  # Lint TypeScript source globs
+  $ tslint -c tslint.json 'src/**/*.ts'
+  ```
+  - serverless 설치
+  ```
+  # Installing the serverless cli
+  $ npm install -g serverless
+  ```
+  - awscli 설지
+  ```
+  $ brew install awscli
+  ```
+  - angular cli 설치
+  ```
+  $ npm install -g @angular/cli
+  ```
 
 
 # tmux: 여러개의 터미널을 실행할 수 있는 TTY 멀티플렉서 
