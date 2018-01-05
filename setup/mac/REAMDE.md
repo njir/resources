@@ -20,7 +20,7 @@
   ```
   # Install the global CLI and its peer dependency
   $ yarn global add tslint typescript
-  # Navigate to to your sources folder
+  # Navigate to to yoursls dynamodb installrces folder
   $ cd path/to/project
   # Lint TypeScript source globs
   $ tslint -c tslint.json 'src/**/*.ts'
@@ -29,6 +29,7 @@
   ```
   # Installing the serverless cli
   $ npm install -g serverless
+  $ sls dynamodb install
   ```
   - awscli 설지
   ```
@@ -37,6 +38,27 @@
   - angular cli 설치
   ```
   $ npm install -g @angular/cli
+  ```
+  - start serverless
+  ```
+  $ serverless offline start --migrate
+  ```
+  - insert dynamodb
+  ```
+  // insert metadata 
+var params = {
+    TableName: 'products',
+    Item: {
+        productId: '1',
+        item: 0
+    }
+};
+
+ppJson(params);
+docClient.put(params, function(err, data) {
+    if (err) ppJson(err); // an error occurred
+    else console.log("PutItem returned successfully");
+});
   ```
 
 
