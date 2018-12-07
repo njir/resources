@@ -9,8 +9,11 @@
   - fasd
   - tmux
   - tmuxinator
+  	- https://gist.github.com/colmarius/f8c0c824b87db9279222
   - tig
   - thefuck
+  - [jq](https://blog.outsider.ne.kr/1202)
+  
 - 3분의1 개발환경 설정
 	- install yarn
 	```
