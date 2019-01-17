@@ -1,4 +1,5 @@
 # 개발환경 설정
+- install [spectacle](https://www.spectacleapp.com), [alfred](http://alfredapp.com)
 - [본격 macOS에 개발 환경 구축하기](https://subicura.com/2017/11/22/mac-os-development-environment-setup.html)
 - 기존 설정에서 아래 프로그램 or 플러그인 설치
   - zsh-syntax-highlighting
