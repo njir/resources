@@ -1,3 +1,19 @@
+# mac 프로그램
+- [Pock](https://pock.dev): Display macOS Dock in Touch Bar 
+- [Notion](https://www.notion.so)
+- [Whale](https://whale.naver.com/): 웨일 브라우저
+- [리디북스](https://ridibooks.com/?genre=general)
+- [Spectacle](https://www.spectacleapp.com)
+- [Alfred](https://www.alfredapp.com)
+- [jq](https://stedolan.github.io/jq/)
+
+# chrome extension
+- [Octotree](https://github.com/ovity/octotree)
+- [Pushbullet](https://www.pushbullet.com)
+- [video speed controller](https://github.com/igrigorik/videospeed)
+- [30 seconds of Knowledge](https://30secondsofknowledge.com)
+
+
 # 개발환경 설정
 - install [spectacle](https://www.spectacleapp.com), [alfred](http://alfredapp.com)
 - [본격 macOS에 개발 환경 구축하기](https://subicura.com/2017/11/22/mac-os-development-environment-setup.html)
