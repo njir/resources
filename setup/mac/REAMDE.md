@@ -5,7 +5,19 @@
 - [리디북스](https://ridibooks.com/?genre=general)
 - [Spectacle](https://www.spectacleapp.com)
 - [Alfred](https://www.alfredapp.com)
-- [jq](https://stedolan.github.io/jq/)
+
+# command-line
+- [fd](https://github.com/sharkdp/fd): A simple, fast and user-friendly alternative to 'find'
+- [exa](https://github.com/ogham/exa): A modern version of ‘ls’
+- [bat](https://github.com/sharkdp/bat): A cat(1) clone with wings
+- [up](https://github.com/apex/up): Deploy infinitely scalable serverless apps, APIs, and sites in seconds to AWS
+- [jq](https://stedolan.github.io/jq/): JSON processor
+- [httpie](https://github.com/jakubroztocil/httpie): HTTP client
+- [asciinema](https://asciinema.org): terminal session recorder
+- [tldr](https://github.com/tldr-pages/tldr): Simplified and community-driven man pages
+- [scc](https://github.com/boyter/scc): Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go
+- [wifi-password](https://github.com/rauchg/wifi-password): Get the password of the wifi you're on (bash)
+- [fkill](https://github.com/sindresorhus/fkill-cli): Fabulously kill processes. Cross-platform.
 
 # chrome extension
 - [Octotree](https://github.com/ovity/octotree)
