@@ -1,3 +1,28 @@
+TODO: 개발환경 셋팅 방법 정리
+
+# etc
+
+- 한글에서 ₩ 대신 ` 사용
+  - 아래 명령어 입력 후 재부팅
+
+```bash
+$ if ! [ -f ~/Library/KeyBindings/DefaultkeyBinding.dict ]; then mkdir -p ~/Library/KeyBindings && echo '{"₩" = ("insertText:", "\`");}' > ~/Library/KeyBindings/DefaultkeyBinding.dict; fi
+```
+
+- 로그인시 Other… 삭제
+```
+$ sudo defaults write /Library/Preferences/com.apple.loginwindow SHOWOTHERUSERS_MANAGED -bool FALSE
+```
+
+- cmd+ctrl+d Dictionary 실행 제거
+```
+$ defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 70 '<dict><key>enabled</key><false/></dict>'
+```
+
+- 참고: https://lazyren.github.io/devlog/mac-clean-installation.html
+
+---
+
 # mac 프로그램
 - [Pock](https://pock.dev): Display macOS Dock in Touch Bar 
 - [Notion](https://www.notion.so)
@@ -5,6 +30,7 @@
 - [리디북스](https://ridibooks.com/?genre=general)
 - [Spectacle](https://www.spectacleapp.com)
 - [Alfred](https://www.alfredapp.com)
+- [Typora](https://typora.io/): 마크다운 에디터
 
 # command-line
 - [fd](https://github.com/sharkdp/fd): A simple, fast and user-friendly alternative to 'find'
