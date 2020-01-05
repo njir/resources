@@ -2,7 +2,6 @@
 
 ### 기본 참고
 - [본격 macOS에 개발 환경 구축하기](https://subicura.com/2017/11/22/mac-os-development-environment-setup.html)
-    - Download: [본격 macOS에 개발 환경 구축하기.mhtml](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1de8cbee-03d2-4647-9cf0-4ce3c090984f/_macOS___.mhtml)
     - Finder Preferences ⇒ 태그 및 사이드바에 workspace 폴더 추가
     - SpaceVim은 설치하지 않는다.
 
