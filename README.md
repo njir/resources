@@ -3,7 +3,6 @@
 ### 기본 참고
 - [본격 macOS에 개발 환경 구축하기](https://subicura.com/2017/11/22/mac-os-development-environment-setup.html)
     - Finder Preferences ⇒ 태그 및 사이드바에 workspace 폴더 추가
-    - SpaceVim은 설치하지 않는다.
 
 ### System Preferences
 - General
@@ -29,7 +28,7 @@
 - [Xcode](https://developer.apple.com/kr/xcode/): 앱스토어에서 설치
 - [카카오톡](https://www.kakaocorp.com/service/KakaoTalk): 앱스토어에서 설치
 - [Pock](https://pock.dev): display macOS Dock in Touch Bar(터치바 모델만)
-- [Sip](https://sipapp.io): color picker(앱스토어에서 설치)
+- [Sip](https://sipapp.io): color picker(앱스토어에서 설치) => 유료로 바뀐듯
 
 ### CLI
 - [Homebrew](https://brew.sh/index_ko): macOS용 패키지 관리자
