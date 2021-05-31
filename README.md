@@ -35,6 +35,10 @@
   ```shell
   $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   ```
+- Cocoapods
+```shell
+$ sudo gem install cocoapods
+```
 - [git](https://git-scm.com), [git-lfs](https://git-lfs.github.com), [git-flow](https://danielkummer.github.io/git-flow-cheatsheet/index.ko_KR.html)
   ```shell
   $ brew install git git-lfs
@@ -234,6 +238,10 @@ $ source ~/.zshrc
 - [scc](https://github.com/boyter/scc): accurate code counter with complexity calculations
 ```
 $ brew install scc
+```
+- lerna
+```shell
+$ npm install -g lerna
 ```
 
 ### ETC
